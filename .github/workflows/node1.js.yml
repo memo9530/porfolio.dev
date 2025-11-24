@@ -116,7 +116,7 @@
    
  # Ejecuta los tests unitarios con Jest
     - name: Run unit tests
-      run: npm run test----passWithNoTests
+      run: npm run test-- --passWithNoTests
   #--passWithNoTests permite que pase aunque no haya tests (útil al iniciar)
   
  # Ejecuta los tests con cobertura de código
