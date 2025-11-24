@@ -121,7 +121,7 @@
   
  # Ejecuta los tests con cobertura de código
     - name: Run tests with coverage
-      run: npm run test:cov----passWithNoTests
+      run: npm run test:cov -- --passWithNoTests
    
  # Sube el reporte de cobertura como artefacto
     - name: Upload coverage report
